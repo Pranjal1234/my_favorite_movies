@@ -7,6 +7,9 @@ class Movie():
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
     
+    #Constructor method takes in movie title, movie storyline, poster image,
+    # youtube trailer link, and imdb movie ID.
+
     
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube, movie_id):
