@@ -36,5 +36,7 @@ nemo2 = media.Movie("Finding Dory",
 
 movies = [cars3, cars2, car1, nemo, nemo2, frozen];
 
+fresh_tomatoes.open_movies_page(movies)
+
 
 
