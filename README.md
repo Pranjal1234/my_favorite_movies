@@ -5,7 +5,8 @@ Source code for a website of my favorite movies. The webpage shows trailers of t
 
 Before running the entertainment_center.py , make sure you have the imdbpy package for python installed. If not, run this code in command prompt (Windows)
 
-```pip install IMDbPY
+```
+pip install IMDbPY
 ```
 
 
