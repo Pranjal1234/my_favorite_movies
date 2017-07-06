@@ -1,6 +1,8 @@
 import media
 import fresh_tomatoes
 
+# This module contains my favorite movies and makes the movie objects out of them. 
+
 cars3 = media.Movie("Cars 3",
                     "Lightning McQueen is racing with his long time friends Bobby Swift and Cal Weather",
                     "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc0NzU2OTYyN15BMl5BanBnXkFtZTgwMTkwOTg2MTI@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
@@ -33,10 +35,6 @@ nemo2 = media.Movie("Finding Dory",
                      227786)
 
 movies = [cars3, cars2, car1, nemo, nemo2, frozen];
-#fresh_tomatoes.open_movies_page(movies)
-#print(media.Movie.VALID_RATINGS)
-print media.Movie.__doc__
-print media.Movie.__name__
-print media.Movie.__module__
+
 
 
