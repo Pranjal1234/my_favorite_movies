@@ -9,7 +9,7 @@ Before running the entertainment_center.py , make sure you have the imdbpy packa
 pip install IMDbPY
 ```
 
-Run the entertainment_center.py to see the webpage. 
+Run the `entertainment_center.py` to see the webpage. 
 
 
 
