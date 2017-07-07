@@ -34,6 +34,9 @@ main_page_head = '''
             width: 100%;
             height: 100%;
         }
+        .page-background{
+        	background-color: black;
+        }
         .movie-tile {
             margin-bottom: 20px;
             padding-top: 20px;
@@ -88,7 +91,7 @@ main_page_head = '''
 main_page_content = '''
 <!DOCTYPE html>
 <html lang="en">
-  <body>
+  <body class ="page-background">
     <!-- Trailer Video Modal -->
     <div class="modal" id="trailer">
       <div class="modal-dialog">
@@ -107,7 +110,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand center" href="#">My Favorite Movies</a>
+            <a class="navbar-brand" href="#">My Favorite Movies</a>
           </div>
         </div>
       </div>
