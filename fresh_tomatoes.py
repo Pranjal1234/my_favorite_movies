@@ -21,8 +21,8 @@ main_page_head = '''
         }
         #trailer .modal-dialog {
             margin-top: 200px;
-            width: 640px;
-            height: 480px;
+            width: 740px;
+            height: 580px;
         }
         .hanging-close {
             position: absolute;
@@ -36,6 +36,11 @@ main_page_head = '''
         }
         .page-background{
         	background-color: black;
+        }
+        .poster-image {
+        	border: 7px groove #434A54;
+        	width: 220px;
+        	height: 342px;
         }
         .movie-tile {
             margin-bottom: 20px;
@@ -110,7 +115,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">My Favorite Movies</a>
+            <a class="navbar-brand" href="#"><strong>My Favorite Movies</strong></a>
           </div>
         </div>
       </div>
@@ -125,9 +130,9 @@ main_page_content = '''
 # A single movie entry html template
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
-    <img src="{poster_image_url}" width="220" height="342">
-    <h2>{movie_title}</h2>
-    <h6><strong>IMDb's Rating {movie_rating}/10.0</strong></h6>
+    <img  src="{poster_image_url}" class = "poster-image" >
+    <h2><strong>{movie_title}</strong></h2>
+    <h4><strong>IMDb's Rating {movie_rating}/10.0</strong></h4>
     <h6>{movie_sum}</h6>
 </div>
 '''
@@ -142,6 +147,7 @@ def create_movie_tiles_content(movies):
         # Extract movie ratings.
         ia = imdb.IMDb()
         m = ia.get_movie(movie.movie_id)
+        ia.update(m)
         
 
 
