@@ -36,6 +36,7 @@ nemo2 = media.Movie("Finding Dory",
 
 movies = [cars3, cars2, car1, nemo, nemo2, frozen];
 
+#The open movies page method takes in an array of movie objects and produces a webpage of movies. 
 fresh_tomatoes.open_movies_page(movies)
 
 

@@ -107,7 +107,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">My Favorite Movies</a>
+            <a class="navbar-brand center" href="#">My Favorite Movies</a>
           </div>
         </div>
       </div>
