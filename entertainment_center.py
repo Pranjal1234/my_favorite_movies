@@ -12,6 +12,7 @@ cars3 = media.Movie("Cars 3",
                     "CR0,0,674,1000_AL_.jpg",
                     "https://www.youtube.com/watch?v=2LeOH9AGJQM",
                     3606752)
+
 cars2 = media.Movie("Cars 2",
                     "Star race car Lightning McQueen and his pal Mater head" +
                     " overseas to compete in the World Grand Prix race. But " +
@@ -23,6 +24,7 @@ cars2 = media.Movie("Cars 2",
                     "CR0,0,674,1000_AL_.jpg",
                     "https://www.youtube.com/watch?v=oFTfAdauCOo",
                     1216475)
+
 car1 = media.Movie("Cars",
                    "While traveling to California for the dispute of the"
                    " final race of the Piston Cup against The King and"
@@ -37,6 +39,7 @@ car1 = media.Movie("Cars",
                    "MTg5NzY0MzA2MV5BMl5BanBnXkFtZTYwNDc3NTc2._V1_.jpg",
                    "https://www.youtube.com/watch?v=SbXIj2T-_uk",
                    317219)
+
 nemo = media.Movie("Finding Nemo",
                    "After his son is captured in the Great Barrier Reef and" +
                    " taken to Sydney, a timid clownfish sets out on a journey"
@@ -46,6 +49,7 @@ nemo = media.Movie("Finding Nemo",
                    "QXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,671,1000_AL_.jpg",
                    "https://www.youtube.com/watch?v=wZdpNglLbt8",
                    266543)
+
 frozen = media.Movie("Frozen",
                      "When the newly crowned Queen Elsa accidentally uses her"
                      " power to turn things into ice to curse her home in" +
@@ -57,6 +61,7 @@ frozen = media.Movie("Frozen",
                      "000_CR0,0,674,1000_AL_.jpg",
                      "https://www.youtube.com/watch?v=hb8WDATVB6A",
                      229462)
+
 nemo2 = media.Movie("Finding Dory",
                     "The friendly but forgetful blue tang fish, Dory, " +
                     "begins a search for her long-lost parents, and " +
